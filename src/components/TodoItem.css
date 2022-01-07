@@ -1,0 +1,71 @@
+.todo {
+    border-radius: 10px;
+    list-style: none;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.todo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+
+.btn-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 6rem;
+}
+
+.btn {
+    background: transparent;
+    border: none;
+    color: #fff;
+    padding: 0.5rem;
+    box-shadow: none;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+}
+
+.todo-label {
+    overflow-wrap: break-word;
+    width: 70%;
+}
+
+/* EDIT MODE */
+
+.editTodo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px;
+}
+
+.edit-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.editBtn-group {
+  width: 30%;
+  display: flex;
+  margin-left: 20px;
+  justify-content: space-between;
+}
+
+.todo-text {
+    border: none;
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.432);
+}
+
+.editBtn-group > button {
+  padding: 12px;
+}
+
+.editBtn-group > button:hover {
+    background: none;
+}

@@ -1,3 +1,10 @@
+## inspired on: https://github.com/mdn/todo-react
+
+## Features: 
+ - Local Storage
+ - CRUD
+ - Night Mode
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
