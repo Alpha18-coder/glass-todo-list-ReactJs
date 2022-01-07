@@ -24,3 +24,11 @@ form {
     color: #fff;
     border: none;
 }
+
+@media only screen and (max-width: 600px) {
+  .form {
+    width: 10rem;
+    margin-bottom: 20px;
+    margin-left: 6rem;
+  }
+}

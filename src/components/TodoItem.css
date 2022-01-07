@@ -69,3 +69,24 @@
 .editBtn-group > button:hover {
     background: none;
 }
+
+@media only screen and (max-width: 600px) {
+
+  .todo-label {
+      margin-left: 10px;
+  }
+
+  .editTodo {
+  padding: 8px;
+}
+
+.editBtn-group {
+  width: 40%;
+  margin: 0px 10px;
+}
+
+.edit-container > input {
+    width: 92%;
+    margin-left: 10px;
+}
+}

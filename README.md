@@ -1,6 +1,7 @@
 inspired on: https://github.com/mdn/todo-react
 
 ## Features: 
+ - responsiveness
  - Local Storage
  - CRUD
  - Night Mode
