@@ -27,7 +27,7 @@ form {
 
 @media only screen and (max-width: 600px) {
   .form {
-    width: 84vw;
+    width: 54vw;
     margin-bottom: 20px;
   }
 }
