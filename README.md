@@ -1,4 +1,4 @@
-## inspired on: https://github.com/mdn/todo-react
+inspired on: https://github.com/mdn/todo-react
 
 ## Features: 
  - Local Storage
