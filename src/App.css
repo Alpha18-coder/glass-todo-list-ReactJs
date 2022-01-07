@@ -98,11 +98,11 @@ h2, li {
   }
 
   main {
-    padding-left: 1rem;
+    padding: 1rem;
   }
 
   h1 {
-    font-size: clamp(10px, 2rem, 60px);
+    font-size: 2rem;
     margin-bottom: 15px;
   }
 
