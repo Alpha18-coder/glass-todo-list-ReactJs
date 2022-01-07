@@ -92,6 +92,10 @@ h2, li {
 
 @media only screen and (max-width: 600px) {
 
+  .App {
+    margin-left: 20px;
+  }
+
   h1 {
     font-size: 2rem;
     margin-bottom: 15px;
