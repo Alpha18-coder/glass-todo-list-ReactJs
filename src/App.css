@@ -1,8 +1,11 @@
-li, input, button, ul {
-  background: rgba( 255, 255, 255, 0.25 );
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 8px );
-  -webkit-backdrop-filter: blur( 8px );
+li,
+input,
+button,
+ul {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
 }
 button {
   cursor: pointer;
@@ -12,7 +15,9 @@ button {
   border-radius: 100%;
 }
 
-input:hover, li:hover, button:hover {
+input:hover,
+li:hover,
+button:hover {
   background: rgba(255, 255, 255, 0.452);
   transition: 0.39s all ease-in-out;
 }
@@ -33,7 +38,7 @@ input:hover, li:hover, button:hover {
 .theme-btn {
   position: absolute;
   border: none;
-  background: #3D2F62;
+  background: #3d2f62;
   color: #fff;
   padding: 15px;
   right: 50px;
@@ -49,14 +54,15 @@ h1 {
   margin-top: 5rem;
 }
 
-h2, li {
+h2,
+li {
   margin: 15px;
 }
 
 .todoList {
   display: flex;
   flex-direction: column;
-  justify-content:center;
+  justify-content: center;
   width: 30rem;
   border-radius: 20px;
   padding: 0;
@@ -69,19 +75,18 @@ h2, li {
   justify-content: space-evenly;
   border-radius: 0px 0px 20px 20px;
   background: #3d2f62cb;
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 13.5px );
-  -webkit-backdrop-filter: blur( 13.5px );
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(13.5px);
+  -webkit-backdrop-filter: blur(13.5px);
 }
 
-.filter-group > button  {
-  background: #3D2F62;
+.filter-group > button {
+  background: #3d2f62;
   box-shadow: 0 3px 10px 0 rgba(31, 38, 135, 0.445);
-  backdrop-filter: blur( 13.5px );
-  -webkit-backdrop-filter: blur( 13.5px );
+  backdrop-filter: blur(13.5px);
+  -webkit-backdrop-filter: blur(13.5px);
   border-radius: 10px;
   outline: 1px solid hsla(0, 0%, 100%, 0.082);
-  
 }
 
 .filter-group > button:hover {
@@ -89,9 +94,7 @@ h2, li {
   border-radius: 10px;
 }
 
-
 @media only screen and (max-width: 600px) {
-
   h1 {
     font-size: 2rem;
     margin-bottom: 15px;
