@@ -98,7 +98,7 @@ h2, li {
   }
 
   main {
-    padding: 0, clamp(10px, 2rem, 60px);
+    padding-left: 1rem;
   }
 
   h1 {
@@ -108,13 +108,11 @@ h2, li {
 
   .theme-btn {
     /* background-color: lightblue; */
-    margin-top: 20px;
     bottom: 90vh;
     right: 30px;
   }
 
   .todoList {
-    width: clamp(200px, 90vw, 300px);
-    margin: 0 15px;
+    width: 80vw;
   }
 }
